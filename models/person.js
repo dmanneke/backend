@@ -5,7 +5,7 @@ mongoose.set('strictQuery', false)
 const personSchema = new mongoose.Schema({
     name: {
         type: String,
-        minLength: [3, 'Name must have at least 3 letters, yo!'], 
+        minLength: [3, 'Name must have at least 3 letters, yo!'],
         required: true
     },
     number: {

@@ -61,7 +61,7 @@ personsRouter.post('/', (request, response, next) => {
     }
 
     const person = new Person({
-        name: request.body.name, 
+        name: request.body.name,
         number: request.body.number
     })
 
