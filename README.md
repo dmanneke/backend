@@ -5,3 +5,4 @@ Currently it is a much simpler application that tracks an online phonebook. This
 
 Clone the GIT repository to your local machine and run the following command in your terminal to launch the web application on your localhost in developer mode: ``` npm run dev ```
 
+Use an extension like Postman to send different types of request to the API at localhost:3001/api.
